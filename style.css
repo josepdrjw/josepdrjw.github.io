@@ -56,9 +56,10 @@ a {
     text-align: center;
 }
 
-button{
+#btprof{
 
     background: #808000;
+    width: 80%;
     margin-left: 100px;
     border-radius: 10px;
     
@@ -96,6 +97,13 @@ button{
     margin-right: auto;
     padding: 5px 5px 5px 5px;
     float: right;
+}
+
+.apresentacao button{
+    background: #808000;
+    width: 80%;
+    margin-left: 100px;
+    border-radius: 10px;
 }
 
 
