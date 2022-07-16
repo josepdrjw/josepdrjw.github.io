@@ -3,23 +3,24 @@ body {
 }
 
 h1{
-    color: aqua;
-    margin-top: 100px;
-    margin-bottom: none;
-    margin-left: 230px;
+    color: #556B2F;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 h2{
 
 
-    color: whitesmoke;
+    color: #808000;
     margin-left: 100px;
     margin-bottom: 5px;
-    font-size: 80px;
+    font-size: 60px;
+    text-align: center;
 }
 
 h4{
-    color: aqua;
+    color:  #808000;
     margin-left: 100px;
 }
 
@@ -33,30 +34,69 @@ h4{
     width: 340px;
 }
 
-.sobre{
-    color: whitesmoke;
-    margin-top: 50px;
-    margin-left: 100px;
+
+
+#trybe{
+    color: #2E8B57;
 }
 
 ul {
     color: bisque;
     margin-left: 80px;
     margin-bottom: 200px;
+    color: #808080;
 }
 
 a {
     color: black;
     font-size: 50px;
-    border-radius: 20px;
+    border-radius: 5px;
     text-decoration: none;
+    padding: 100px;
+    text-align: center;
 }
 
 button{
 
-    background: red;
+    background: #808000;
     margin-left: 100px;
     border-radius: 10px;
+    
 }
+
+
+.part1{
+    width: 40%;
+    display: inline-block;
+    padding: 0px;
+    background-color: black;
+    width: 40%;
+}
+
+.part2{
+    width: 40%;
+    display: inline-block;
+    padding: 0px;
+    background-color: black;
+    width: 50%;
+    margin-top: 0%;
+}
+
+.sobre{
+    color: #808080;
+    font-size: 20px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+
+
+.part2 img{
+    width: 80%;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;
+    float: right;
+}
+
 
 
