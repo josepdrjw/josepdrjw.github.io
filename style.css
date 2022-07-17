@@ -43,26 +43,52 @@ h4{
 ul {
     color: bisque;
     margin-left: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     color: #808080;
 }
 
 a {
-    color: black;
-    font-size: 50px;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 100px;
-    text-align: center;
+    
+    
+    
+    
+    
+    
 }
 
-#btprof{
+/*Aqui stiliza o botao sobre*/
 
+#btprof{
+    display: block;
     background: #808000;
-    width: 80%;
-    margin-left: 100px;
+    color: black;
+    margin-left: 80px;
+    margin-right: auto;
     border-radius: 10px;
+    padding: 10px 5px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 50px;
     
+}
+
+#bnt-inicio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 5px;
+    background-color: #808000;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+
 }
 
 
@@ -99,12 +125,24 @@ a {
     float: right;
 }
 
-.apresentacao button{
-    background: #808000;
-    width: 80%;
-    margin-left: 100px;
-    border-radius: 10px;
+
+
+.tecnologias{
+    display: inline-block;
+    width: 100%;
 }
 
+.tecnologias img{
+    display: inline-block;
+    width: 300px;
+}
+
+#html{
+    margin-left: 178px;
+}
+
+.apresentacao{
+    background-color: #1C1C1C;
+}
 
 
