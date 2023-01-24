@@ -1,44 +1,85 @@
 body {
-    background-color: black;
+    background-color: hsl(142, 22%, 20%);
 }
 
 h1{
-    color: #556B2F;
-    margin-top: 50px;
+    color: #76A788;
+    top: 90px;
     text-align: center;
     margin-bottom: 5px;
-}
+    font-size:x-large}
 
 h2{
 
 
-    color: #808000;
-    margin-left: 100px;
+    color: #76A788;
     margin-bottom: 5px;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h4{
-    color:  #808000;
+    color:  #76A788;
     margin-left: 100px;
 }
 
+a{
+    position: relative;
+    top: 15px;
+    width: 30px;
+    padding: 10px 5px 10px 5px;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav{
+    background-color: #6AA07D;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: hsl(142, 22%, 20%);
+    color: #76A788;
+    position: relative;
+    left: 900px;
+    top: 25px;
+}
+
+ a:hover{
+    background-color: #588969;
+    color: black;
+ }
 
 .profile{
     display: block;
     border-radius: 300%;
-    margin-top: none;
     margin-left: auto;
     margin-right: auto;
     width: 340px;
 }
 
-
+#portifolio{
+    background-color: red;
+}
+ .navegatio{
+    position: absolute;
+    background-color: red;
+ }
 
 #trybe{
     color: #2E8B57;
+    font-weight: bolder;
+
 }
+
+
 
 ul {
     color: bisque;
@@ -51,13 +92,16 @@ ul {
 /*Aqui stiliza o botao sobre*/
 
 #btprof{
+    position: relative;
     display: block;
-    background: #808000;
-    color: black;
-    margin-left: 80px;
-    margin-right: auto;
+    width: 40%;
+    background: #1A281F;
+    color: #76A788;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-right: 25%;
     border-radius: 10px;
-    padding: 10px 5px;
+    padding: 10px 20px 10px 20px;
     line-height: 50px;
     text-decoration: none;
     text-align: center;
@@ -67,15 +111,15 @@ ul {
 }
 
 #bnt-inicio {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
     height: 40px;
     line-height: 40px;
-    padding: 10px 5px;
-    background-color: #808000;
-    color: black;
+    padding: 10px px;
+    background-color: #1A281F;
+    color: #76A788;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
@@ -87,61 +131,67 @@ ul {
 .part1{
     width: 40%;
     display: inline-block;
-    padding: 0px;
-    background-color: black;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: hsl(142, 22%, 20%);
+    background-size: 500;
     width: 40%;
 }
 
 .part2{
     width: 40%;
     display: inline-block;
+    background-color: hsl(142, 22%, 20%);
     padding: 0px;
-    background-color: black;
+    margin-left: 100px;
     width: 50%;
+    border-radius: 50%
     margin-top: 0%;
 }
 
 .sobre{
-    color: #808080;
+    color: #b7b1b1;
     font-size: 20px;
     margin-left: 70px;
-    text-align: center;
+    text-align: justify;
+    padding-right: 50px;
 }
-
 
 
 .part2 img{
     width: 80%;
     margin-right: auto;
     padding: 5px 5px 5px 5px;
-    float: right;
+    position: relative;
 }
 
-
-
-.tecnologias{
-    display: inline-block;
-    width: 100%;
-}
 
 .tecnologias img{
-    display: inline-block;
     width: 300px;
 }
 
-#html{
+#imghtml{
+    position: relative;
+    top: 25px;
     margin-left: 178px;
 }
 
+#imgcss{
+    position: relative;
+    top: 25px;
+}
+
 #imgjs{
+    position: relative;
+    top: 25px;
     width: 300px;
     height: 169px;
     border-bottom: 10px;
     padding-bottom: 14px;
 }
 
+
 .apresentacao{
-    background-color: #1C1C1C;
+    background-color:  hsl(142, 22%, 20%);
+    margin-top: 20px;
 }
-
-
