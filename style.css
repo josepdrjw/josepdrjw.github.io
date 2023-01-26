@@ -1,5 +1,10 @@
 body {
-    background-color: hsl(142, 22%, 20%);
+    padding: 20px 5px 0px ;
+    background-color: rgb(40, 62, 48);
+}
+
+.dia {
+    background-color: rgb(211, 227, 217);
 }
 
 h1{
@@ -9,10 +14,17 @@ h1{
     margin-bottom: 5px;
     font-size:x-large}
 
-h2{
-
-
+.h2{
     color: #76A788;
+    margin-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h2-dia{
+    color: rgb(40, 62, 48);
     margin-bottom: 5px;
     font-size: 50px;
     text-align: center;
@@ -35,15 +47,29 @@ a{
     border-radius: 5px;
 }
 
-nav{
-    background-color: #6AA07D;
+/* #home{
+    width: 50%;
+} */
+
+.nav{
+    background-color: #82b393;
     position: fixed;
-    width: 100%;
+    width: 98%;
     height: 70px;
     top: 0px;
 }
 
-nav a {
+.nav-dia{
+    background-color: #f2f7f4;
+    position:static;
+    top: 10px;
+    width: 98%;
+    height: 70px;
+    top: 0px;
+}
+
+
+ .nv {
     text-decoration: none;
     background-color: hsl(142, 22%, 20%);
     color: #76A788;
@@ -52,7 +78,7 @@ nav a {
     top: 25px;
 }
 
- a:hover{
+ .nv:hover{
     background-color: #588969;
     color: black;
  }
@@ -91,7 +117,7 @@ ul {
 
 /*Aqui stiliza o botao sobre*/
 
-#btprof{
+#link-sobre{
     position: relative;
     display: block;
     width: 40%;
@@ -110,21 +136,52 @@ ul {
     
 }
 
-#bnt-inicio {
-    width: 100%;
+#link-sobre:hover{
+    background-color: #588969;
+    color: black;
+}
+
+#link-inicio {
+    width: 99%;
+    height: 50px;
+    padding: 0%;
+    margin-bottom: 30px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 40px;
-    line-height: 40px;
-    padding: 10px px;
     background-color: #1A281F;
-    color: #76A788;
     border-radius: 5px;
     text-decoration: none;
-    text-align: center;
-    font-size: 30px;
+    /* text-align: center; */
+    font-size: 32px;
 
+}
+
+#btn-inicio{
+    background: none;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: #76A788;
+    border-radius: 5px;
+}
+
+#btn-inicio:hover{
+    background-color: #588969;
+    color: black;
+}
+
+.btnmode {
+    background: none;
+    border: none;
+    position: fixed;
+    left: 40px;
+    bottom: 598px;
+}
+
+.texto{
+    position: fixed;
+    left: 90px;
+    top: 5px;
+    color: #0f1912;
 }
 
 
@@ -144,9 +201,20 @@ ul {
     background-color: hsl(142, 22%, 20%);
     padding: 0px;
     margin-left: 100px;
+    margin-top: 10px;
     width: 50%;
-    border-radius: 50%
-    margin-top: 0%;
+    /* border-radius: 50% */
+}
+
+.part2-dia{
+    width: 40%;
+    display: inline-block;
+    background-color: rgb(211, 227, 217);
+    padding: 0px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 50%;
+    /* border-radius: 50% */
 }
 
 .sobre{
@@ -157,8 +225,25 @@ ul {
     padding-right: 50px;
 }
 
+.sobre-dia{
+    background-color: rgb(211, 227, 217);
+    color: rgb(40, 62, 48);
+    font-size: 20px;
+    margin-left: 70px;
+    text-align: justify;
+    padding-right: 50px;
+}
+
 
 .part2 img{
+    width: 80%;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+
+.part2-dia img{
     width: 80%;
     margin-right: auto;
     padding: 5px 5px 5px 5px;
@@ -195,3 +280,10 @@ ul {
     background-color:  hsl(142, 22%, 20%);
     margin-top: 20px;
 }
+
+.apresentacao-dia{
+    background-color:  #e4eee8;
+    margin-top: 20px;
+}
+
+
