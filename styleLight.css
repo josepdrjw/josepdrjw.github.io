@@ -3,7 +3,6 @@ body {
     background-color: rgb(211, 227, 217);
 }
 
-
 h1{
     color: rgb(40, 62, 48);
     top: 90px;
@@ -84,7 +83,6 @@ a{
 }
 
 
-
 ul {
     color: rgb(40, 62, 48);
     margin-left: 80px;
@@ -149,9 +147,9 @@ ul {
 .btnmode {
     background: none;
     border: none;
-    position: fixed;
-    left: 40px;
-    bottom: 598px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
 }
 
 .texto{
@@ -160,7 +158,6 @@ ul {
     top: 5px;
     color: #0f1912;
 }
-
 
 .part1{
     width: 40%;
@@ -171,7 +168,6 @@ ul {
     background-size: 500;
     width: 40%;
 }
-
 
 .part2{
     width: 40%;
@@ -184,7 +180,6 @@ ul {
     /* border-radius: 50% */
 }
 
-
 .sobre{
     background-color: rgb(211, 227, 217);
     color: rgb(40, 62, 48);
@@ -194,7 +189,6 @@ ul {
     padding-right: 50px;
 }
 
-
 .part2 img{
     width: 80%;
     margin-right: auto;
@@ -202,14 +196,12 @@ ul {
     position: relative;
 }
 
-
 .part2 img{
     width: 80%;
     margin-right: auto;
     padding: 5px 5px 5px 5px;
     position: relative;
 }
-
 
 .tecnologias img{
     width: 300px;
@@ -234,7 +226,6 @@ ul {
     border-bottom: 10px;
     padding-bottom: 14px;
 }
-
 
 .apresentacao{
     background-color:  #e4eee8;
