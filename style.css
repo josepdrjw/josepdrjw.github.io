@@ -55,18 +55,10 @@ a{
     background-color: #82b393;
     position: fixed;
     width: 98%;
-    height: 70px;
+    height: 75px;
     top: 0px;
 }
 
-.nav-dia{
-    background-color: #f2f7f4;
-    position:static;
-    top: 10px;
-    width: 98%;
-    height: 70px;
-    top: 0px;
-}
 
 
  .nv {
@@ -128,7 +120,6 @@ ul {
     margin-right: 25%;
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
-    line-height: 50px;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
@@ -172,9 +163,9 @@ ul {
 .btnmode {
     background: none;
     border: none;
-    position: fixed;
-    left: 40px;
-    bottom: 598px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
 }
 
 .texto{
