@@ -42,7 +42,6 @@ a{
     top: 15px;
     width: 30px;
     padding: 10px 5px 10px 5px;
-    background-color: red;
     text-align: center;
     border-radius: 5px;
 }
@@ -83,12 +82,8 @@ a{
     width: 340px;
 }
 
-#portifolio{
-    background-color: red;
-}
  .navegatio{
     position: absolute;
-    background-color: red;
  }
 
 #trybe{
